@@ -8,9 +8,11 @@ print("1")
 print("2")
 
 try:
-    print(chia(4,0))
+    print(chia(4,2))
 except:
     print("Cai nay dang bi loi")
+finally:
+    print("Du dung hay sai thi van in ra dong nay")
 
 print("3")
 print("4")
