@@ -3,8 +3,16 @@
 
 #Cach 2
 from Tinhtong import *
-a = hamtinhtong(4,5)
+from Tinhtong_2 import *
+
+a = hamtinhtong(6,5)
 print(a)
 
-b = hamtinhhieu(8,3)
-print(b)
+#Cach 3
+#import Tinhtong
+
+#a = Tinhtong.hamtinhtong(4,5)
+#print(a)
+
+#b = Tinhtong.hamtinhhieu(8,3)
+#print(b)
