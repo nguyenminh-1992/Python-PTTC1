@@ -17,6 +17,5 @@ finally:
 print("3")
 print("4")
 print(tinh(1,2))
-print("5")
-print("6")
-print("7")
+#Viet 1 ham nhap 1 so tu ban phim, tinh can bac hai cua so do
+#Dung try - except de xu ly trong truong hop nguoi dung khong nhap ma nhap chu
