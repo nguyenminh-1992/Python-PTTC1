@@ -7,11 +7,11 @@ class PTTC1():
     age = 0
     country = 'HN'
     #Phuong thuc
-    def hoc():
+    def hoc(self):
         print("Phai hoc Python")
-    def thi():
+    def thi(self):
         print("Phai thi Python")
-    def an():
+    def an(self):
         print("An ngay 3 bua")
 
 
@@ -33,3 +33,5 @@ student3.country = "Da Nang"
 print(student1.name)
 print(student2.name)
 print(student3.name)
+
+student1.hoc()
