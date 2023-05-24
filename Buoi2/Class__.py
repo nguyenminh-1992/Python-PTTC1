@@ -16,9 +16,7 @@ class PTTC1():
 
 
 student1 = PTTC1()
-student1.name = "Nguyen Van A"
-student1.age = 20
-student1.country = "Ha Noi"
+
 
 student2 = PTTC1()
 student2.name = "Nguyen Van B"
