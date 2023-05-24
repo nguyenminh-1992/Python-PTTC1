@@ -7,7 +7,7 @@ class PTTC1:
         self.clazz = clazz
     #Phuong thuc
     def an(self):
-        print("Phan an day du truoc khi toi lop")
+        print("Phai an day du truoc khi toi lop")
     def hoc(self):
         print(self.name+" hoc Python")
 
