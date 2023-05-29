@@ -25,7 +25,7 @@ class Quanlyhocvien:
                 hocvien.xeploai = "Gioi"
             else:
                 hocvien.xeploai = "Yeu"
-            hocvien.id = i
+            hocvien.id = self.list_hocvien.__len__() + 1
             
             self.list_hocvien.append(hocvien)
 #Yeu cau
@@ -62,12 +62,12 @@ class Quanlyhocvien:
     def in__(self):
         print(self.list_hocvien[0])
 
-test = Quanlyhocvien()
-test.themhocvien()
-test.hienthihocvien()
-hocvien_id = int(input("nhap id can sua: "))
+#test = Quanlyhocvien()
+#test.themhocvien()
+#test.hienthihocvien()
+#hocvien_id = int(input("nhap id can sua: "))
 
-test.sua_ten_tuoi(hocvien_id)
-hocvien_id = int(input("nhap id can xoa: "))
-test.xoa_hoc_vien(hocvien_id)
-test.in__()
+#test.sua_ten_tuoi(hocvien_id)
+#hocvien_id = int(input("nhap id can xoa: "))
+#test.xoa_hoc_vien(hocvien_id)
+#test.in__()

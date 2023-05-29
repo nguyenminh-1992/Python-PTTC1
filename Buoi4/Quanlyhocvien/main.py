@@ -2,7 +2,8 @@
 #Xoa
 #Sua
 #Hien thi
-
+from Quanlyhocvien import *
+test = Quanlyhocvien()
 while(True):
     print("|--------------------------------------|")
     print("|----Chuong trinh quan ly hoc vien     |")
@@ -15,13 +16,20 @@ while(True):
 
     nhap = int(input("Nhap chuc nang theo so: "))
     if nhap==1:
-        print("Them")
+        print("------------------")
+        test.themhocvien()
+        #print("Them")
     elif nhap==2:
-        print("Xoa")
+        xoaID = int(input("Nhap ID can xoa: "))
+        test.xoa_hoc_vien(xoaID)
+        #print("Xoa")
     elif nhap==3:
-        print("Sua")
+        suaHV = int(input("Nhap ID hoc vien can sua: "))
+        test.sua_ten_tuoi(suaHV)
+        #print("Sua")
     elif nhap==4:
-        print("Hien thi")
+        test.hienthihocvien()
+        # print("Hien thi")
     elif nhap == 0:
         print("Tam biet")
         break
