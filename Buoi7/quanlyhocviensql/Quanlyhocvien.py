@@ -21,8 +21,16 @@ def getalldata2():
         print(ketqua)
         ketqua = dulieu.fetchone()
 
+#Loc du lieu theo id
+def getdatabyid():
+    dulieu.execute("SELECT * FROM Quan_ly_hoc_vien.Hocvien WHERE Id = 3")
+   #Tra du lieu ve Visual Code
+    ketqua = dulieu.fetchall()
+    for i in ketqua:
+        print(i)
+
 #SELECT * FROM Quan_ly_hoc_vien.Hocvien
 
-getalldata2()
+getdatabyid()
 #Dong ket noi
 ketnoi.close()
