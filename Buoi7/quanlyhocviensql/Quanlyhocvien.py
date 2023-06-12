@@ -14,8 +14,15 @@ def getalldata():
     for i in ketqua:
         print(i)
 
+def getalldata2():
+    dulieu.execute("SELECT * FROM Quan_ly_hoc_vien.Hocvien")
+    ketqua = dulieu.fetchone()
+    while ketqua is not None:
+        print(ketqua)
+        ketqua = dulieu.fetchone()
+
 #SELECT * FROM Quan_ly_hoc_vien.Hocvien
 
-getalldata()
+getalldata2()
 #Dong ket noi
 ketnoi.close()
