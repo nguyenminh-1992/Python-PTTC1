@@ -52,10 +52,22 @@ def createdata():
     ketnoi.commit()
     print("Da them du lieu thanh cong")
 
+def updatedata():
+    sql = "UPDATE Quan_ly_hoc_vien.Hocvien SET Age = 50 WHERE Id = 3"
+    dulieu.execute(sql)
+    ketnoi.commit()
+    print("Update du lieu thanh cong")
+
+def deletedata():
+    sql = "DELETE FROM Quan_ly_hoc_vien.Hocvien Where Country = 'Hue'"
+    dulieu.execute(sql)
+    ketnoi.commit()
+    print("Xoa du lieu thanh cong")
+
 
 
 #SELECT * FROM Quan_ly_hoc_vien.Hocvien
-createdata()
+deletedata()
 #SELECT * FROM Quan_ly_hoc_vien.Hocvien WHERE Id = 1
 #Dong ket noi
 ketnoi.close()
