@@ -19,14 +19,14 @@ def getalldata3():
     dulieu.execute("SELECT * FROM Quan_ly_hoc_vien.Hocvien")
    #Tra du lieu ve Visual Code
     ketqua = dulieu.fetchall()
-    print("{:<4} {:<15} {:<10} {:<10} {:<10} {:<10}".format('Id','Name','Age','Country','English','Information','HocLuc'))
+    print("{:<4} {:<15} {:<10} {:<10} {:<10} {:<13} {:<10}".format('Id','Name','Age','Country','English','Information','HocLuc'))
     for i in ketqua:
         diemTb = (i[-1]+i[-2])/2
         if diemTb > 5:
             hocLuc = 'Gioi'
         else:
             hocLuc = 'Kha'
-    print("{:<4} {:<15} {:<10} {:<10} {:<10} {:<10}".format(i[0],i[1],i[2],i[3],i[4],hocLuc))
+    print("{:<4} {:<15} {:<10} {:<10} {:<10} {:<13} {:<10}".format(i[0],i[1],i[2],i[3],i[4],i[5],hocLuc))
 
 def getalldata2():
     dulieu.execute("SELECT * FROM Quan_ly_hoc_vien.Hocvien")
