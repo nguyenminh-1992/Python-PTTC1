@@ -1,0 +1,22 @@
+Mạng cục bộ (LAN) là viết tắt của:
+A. Local Access Network	
+B. List Access Netcaffe	
+C. List Area Netcaffe 
+D. Local Area Network
+ANSWER: D
+
+Các thành phần của một mạng máy tính bao gồm:
+A. Phần mềm cho phép thực hiện việc giao tiếp giữa các máy trong mạng 
+B. Các máy tính
+C. Các thiết bị mạng đảm bảo kết nối các máy tính với nhau 
+D. Tất cả các phương án trên 
+ANSWER: D
+
+Việc thiết kế, bố trí máy tính trong mạng phụ thuộc các yếu tố nào?
+A. Địa điểm lắp đặt mạng và khả năng tài chính	
+B. Tốc độ truyền thông trong mạng
+C. Số lựơng máy tính trong mạng	
+D. Tất cả các yếu tố trên 
+ANSWER: B
+
+
