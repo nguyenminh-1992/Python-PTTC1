@@ -22,6 +22,12 @@ label2.grid(column=2,row=2)
 textbox2 = tkinter.Entry(giaodien,width=30)
 textbox2.grid(column=3,row=2)
 
+button = tkinter.Button(giaodien,text="Click vao",bg='blue',fg='black')
+button.grid(column=3,row=3)
+
+textbox3 = tkinter.Entry(giaodien,width=10)
+textbox3.grid(column=3,row=4)
+
 
 
 
